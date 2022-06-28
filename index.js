@@ -12,7 +12,7 @@ var percentMg = (mg/total)*100;
 var percentEs = (es/total)*100;
 var percentOutros = (outros/total)*100;
 
-document.write("O valor total de faturamento é " + total);
+document.write("O valor total de faturamento é " + total + "</br>");
 document.write("SP representou: " + percentSp.toFixed(2) + "% do valor total mensal da distribuidora </br>");
 document.write("RJ representou: " + percentRj.toFixed(2) + "% do valor total mensal da distribuidora </br>");
 document.write("MG representou: " + percentMg.toFixed(2) + "% do valor total mensal da distribuidora </br>");
